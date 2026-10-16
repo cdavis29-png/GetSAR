@@ -385,8 +385,24 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-super .tile-inner {
+  .tile.tile-4096 .tile-inner {
     background: #fff url('../img/Rabbi-Tully-Harcsztark.jpg');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.740746), inset 0 0 0 1px rgba(255, 255, 255, 0.44443);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-8192 .tile-inner {
+    background: #fff url('../img/idf.jpeg');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.987661), inset 0 0 0 1px rgba(255, 255, 255, 0.59257);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-super .tile-inner {
+    background: #fff url('../img/israel.png');
     background-size: cover;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
